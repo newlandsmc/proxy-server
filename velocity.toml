@@ -7,7 +7,7 @@ bind = "0.0.0.0:25565"
 motd = "&8             &m  ]&f&m     &r &#fafa6e&lS&#fcec5e&le&#fede4f&lm&#ffcf42&li&#ffc037&lV&#ffb12d&la&#ffa126&ln&#ff9123&li&#fe8122&ll&#fc7024&ll&#f95d27&la &#f5492b&lM&#f03030&lC &f&m     &8&m[  &r\n           &7&lHome of Khavalon & Asthonia"
 # What should we display for the maximum number of players? (Velocity does not support a cap
 # on the number of players online.)
-show-max-players = 50
+show-max-players = 150
 # Should we authenticate players with Mojang? By default, this is on.
 online-mode = true
 # If client's ISP/AS sent from this proxy is different from the one from Mojang's
@@ -63,10 +63,10 @@ ping-passthrough = "all"
 
 [forced-hosts]
 	# Configure your forced hosts here.
-	"play.khavalon.com" = ["khavalon"]
-        "mc.khavalon.com" = ["khavalon"]
-	"play.asthonia.com" = ["asthonia"]
-        "mc.asthonia.com" = ["asthonia"]
+	"play.khavalon.com" = ["khavalon", "lobby"]
+        "mc.khavalon.com" = ["khavalon", "lobby"]
+	"play.asthonia.com" = ["asthonia", "lobby"]
+        "mc.asthonia.com" = ["asthonia", "lobby"]
 
 [advanced]
 	# How large a Minecraft packet has to be before we compress it. Setting this to zero will
@@ -95,7 +95,7 @@ ping-passthrough = "all"
 	# loses connection to the server without an explicit disconnect message by attempting to fall the
 	# user back, except in the case of read timeouts. BungeeCord will disconnect the user instead. You
 	# can disable this setting to use the BungeeCord behavior.
-	failover-on-unexpected-server-disconnect = true
+	failover-on-unexpected-server-disconnect = false
 	# Declares the proxy commands to 1.13+ clients.
 	announce-proxy-commands = true
 	# Enables the logging of commands

@@ -50,7 +50,7 @@ onlySendToJoinedServer = true
 joinedServerFallback = ""
 
 # Defines how quickly to dump votes over a player's connection while offloading a cache in votes per second
-dumpRate = 5
+dumpRate = 1
 
 [forwarding.file-cache]
 # Options for file caching.
