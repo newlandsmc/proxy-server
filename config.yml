@@ -1,0 +1,71 @@
+enforce_secure_profile: false
+listeners:
+- query_port: 25565
+  motd: |
+    &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
+    &7&l       Home of Khavalon & Asthonia
+  tab_list: SERVER
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    play.khavalon.com: khavalon
+    play.asthonia.com: asthonia
+    mc.khavalon.com: khavalon
+    mc.asthonia.com: asthonia
+  ping_passthrough: true
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 100
+  tab_size: 60
+  force_default_server: false
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+stats: 9c345aca-5737-41b9-a651-2c75cea65065
+player_limit: -1
+ip_forward: true
+groups:
+  md_5:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 3000
+log_commands: false
+prevent_proxy_connections: false
+online_mode: true
+forge_support: true
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: |
+      &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
+      &7&l       Home of Khavalon & Asthonia
+    address: localhost:25568
+    restricted: false
+  asthonia:
+    motd: |
+      &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
+      &7&l       Home of Khavalon & Asthonia
+    address: localhost:25567
+    restricted: false
+  khavalon:
+    motd: |
+      &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
+      &7&l       Home of Khavalon & Asthonia
+    address: localhost:25566
+    restricted: false
