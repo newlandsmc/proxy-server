@@ -2,24 +2,21 @@ enforce_secure_profile: false
 listeners:
 - query_port: 25565
   motd: |
-    &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
-    &7&l       Home of Khavalon & Asthonia
+    &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
+    &7&l           1.19.2 Survival Network
   tab_list: SERVER
   query_enabled: false
   proxy_protocol: false
   forced_hosts:
-    play.khavalon.com: khavalon
-    play.asthonia.com: asthonia
-    mc.khavalon.com: khavalon
-    mc.asthonia.com: asthonia
-  ping_passthrough: true
+    pvp.md-5.net: pvp
+  ping_passthrough: false
   priorities:
   - lobby
   bind_local_address: true
   host: 0.0.0.0:25565
   max_players: 100
   tab_size: 60
-  force_default_server: false
+  force_default_server: true
 remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
@@ -49,23 +46,30 @@ prevent_proxy_connections: false
 online_mode: true
 forge_support: true
 disabled_commands:
-- disabledcommandhere
+- server
+- servers
 servers:
   lobby:
     motd: |
-      &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
-      &7&l       Home of Khavalon & Asthonia
+      &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
+      &7&l           1.19.2 Survival Network
     address: localhost:25568
     restricted: false
   asthonia:
     motd: |
-      &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
-      &7&l       Home of Khavalon & Asthonia
+      &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
+      &7&l           1.19.2 Survival Network
     address: localhost:25567
     restricted: false
   khavalon:
     motd: |
-      &8           &m  ]&f&m     &r &e&lSemi&6&lVanilla &c&lMC &f&m     &8&m[  &r
-      &7&l       Home of Khavalon & Asthonia
+      &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
+      &7&l           1.19.2 Survival Network
     address: localhost:25566
+    restricted: false
+  creative:
+    motd: |
+      &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
+      &7&l           1.19.2 Survival Network
+    address: localhost:25569
     restricted: false
