@@ -28,6 +28,7 @@
 /plugins/Vulcan/violations.txt
 /plugins/OldExpeditions/data/
 /plugins/Geyser-Velocity/cache/images/
+/plugins/Geyser-BungeeCord/cache/images/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
