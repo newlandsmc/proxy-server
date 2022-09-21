@@ -1,0 +1,100 @@
+# This is the default configuration file of BungeeTabListPlus.
+#
+# Since the configuration of the plugin is quite complex you
+# might want to have a look at the wiki from time to time.
+#
+# Wiki: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki
+#  Placeholders: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Placeholders
+#  Examples: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Examples
+#
+
+showTo: all
+priority: 0
+
+showHeaderFooter: true
+header:
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &fS${server_color}emi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &fSe${server_color}mi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &fSem${server_color}i${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}S&femi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Se&fmiV${server_color_2}anilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Sem&fiVa${server_color_2}nilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi&fVan${server_color_2}illa \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}V&fani${server_color_2}lla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Va&fnil${server_color_2}la \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Van&fill${server_color_2}a \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vani&flla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanil&fla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " ${server_color}Semi${server_color_2}Vanill&fa \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+headerAnimationUpdateInterval: 0.1
+footer: |-
+  &m      &8&m[  &r   &8&m  ]&f&m      &r
+  &7${viewer bungee_total}/100 Online
+  &7Ping: ${viewer ping}
+
+# Configure whether hidden players appear on the tab list
+# see https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Hidden-Players
+hiddenPlayers: VISIBLE_TO_ADMINS
+
+playerSets:
+  all_players: all
+
+type: DYNAMIC_SIZE
+
+playerSet: all_players
+playerOrder: "server"
+playerComponent: "${player_server_icon} ${player name}"
+
+# Custom placeholders are a powerful mechanism to add more dynamic content
+# to the tab list.
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Custom=Placeholders
+customPlaceholders:
+  server_color:
+    !switch
+    expression: "${viewer server}"
+    replacements:
+      "asthonia": "&d"
+      "khavalon": "&e"
+      "creative": "&a"
+    defaultReplacement: "&b"
+  server_color_2:
+    !switch
+    expression: "${viewer server}"
+    replacements:
+      "asthonia": "&5"
+      "khavalon": "&6"
+      "creative": "&2"
+    defaultReplacement: "&3"
+  server_name:
+    !switch
+    expression: "${viewer server}"
+    replacements:
+      "asthonia": "Asthonia"
+      "khavalon": "Khavalon"
+      "creative": "Creative"
+    defaultReplacement: "Lobby"
+  player_server_icon:
+    !switch
+    expression: "${player server}"
+    replacements:
+      "asthonia": "&d■&r"
+      "khavalon": "&6■&r"
+      "creative": "&a■&r"
+    defaultReplacement: "&b■&r"

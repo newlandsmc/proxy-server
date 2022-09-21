@@ -31,10 +31,10 @@ echo "/var/minecraft/asthonia/plugins/squaremap/web/tiles/" >> tempignore.txt
 
 for world in $(ls /var/minecraft/asthonia/worlds/)
 do
-  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/asthonia-$world-$currentDate.tar.gz  /var/minecraft/asthonia/worlds/$world
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/asthonia-$world-$currentDate.tar.gz /var/minecraft/asthonia/worlds/$world
 done
 
-tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/asthonia-plugins-$currentDate.tar.gz  /var/minecraft/asthonia/plugins
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/asthonia-plugins-$currentDate.tar.gz /var/minecraft/asthonia/plugins
 
 rm -f tempignore.txt
 
@@ -45,10 +45,10 @@ echo "/var/minecraft/creative/plugins/squaremap/web/tiles/" >> tempignore.txt
 
 for world in $(ls /var/minecraft/creative/worlds/)
 do
-  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/creative-$world-$currentDate.tar.gz  /var/minecraft/creative/worlds/$world
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/creative-$world-$currentDate.tar.gz /var/minecraft/creative/worlds/$world
 done
 
-tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/creative-plugins-$currentDate.tar.gz  /var/minecraft/creative/plugins
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/creative-plugins-$currentDate.tar.gz /var/minecraft/creative/plugins
 
 rm -f tempignore.txt
 
@@ -58,10 +58,23 @@ find /var/minecraft/lobby -name "*.jar" > tempignore.txt
 
 for world in $(ls /var/minecraft/lobby/worlds/)
 do
-  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/lobby-$world-$currentDate.tar.gz  /var/minecraft/lobby/worlds/$world
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/lobby-$world-$currentDate.tar.gz /var/minecraft/lobby/worlds/$world
 done
 
-tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/lobby-plugins-$currentDate.tar.gz  /var/minecraft/lobby/plugins
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/lobby-plugins-$currentDate.tar.gz /var/minecraft/lobby/plugins
+
+rm -f tempignore.txt
+
+# HARDLINE
+
+find /var/minecraft/lobby -name "*.jar" > tempignore.txt
+
+for world in $(ls /var/minecraft/hardline/worlds/)
+do
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/hardline-$world-$currentDate.tar.gz /var/minecraft/hardline/worlds/$world
+done
+
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/hardline-plugins-$currentDate.tar.gz /var/minecraft/hardline/plugins
 
 rm -f tempignore.txt
 

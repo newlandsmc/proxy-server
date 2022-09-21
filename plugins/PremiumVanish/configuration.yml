@@ -1,0 +1,65 @@
+# PremiumVanish v2.7.20 - Bungeecord proxy extension config
+Configuration:  
+  Database:
+    # The credentials for the database, make sure to use the same database for PV on any bukkit/bungee server.
+    # This has to be enabled for this plugin to work on bungeecord.
+    #
+    # Important: Please make sure that ip-forwarding is enabled on your Bungee AND your Bukkit servers.
+    # It's also important that your database is firewalled so it's not accessible from the internet.
+    Enable: true
+    # The ip of your database server
+    Ip: "localhost"
+    # The port of your database, usually 3306; just leave it empty if there is no specific port
+    Port: "3306"
+    # You can make PremiumVanish ignore the two options above and use a direct URI to connect instead
+    # Format for MySQL servers: jdbc:mysql://<yourIp>:<yourPort>/<yourDatabase>?useSSL=false
+    CustomURI: ""
+    # The name of your database user
+    User: "premiumvanish"
+    # The password of your database user
+    # WARNING: Please make sure only people who are allowed to know the password can access this file
+    Password: "p9td448Rmn46jY36"
+    # The name of the database which PremiumVanish should create its tables in
+    # Note: PremiumVanish won't create this database, it must be pre-created using eg. phpMyAdmin
+    Database: "premiumvanish"
+    # Not recommended; Makes PV use the standard JDBC connector instead of the more powerful multi-pooled HikariCP one
+    # You can give this a try if you have strange problems with connecting to your database
+    BasicDatabaseConnector: false
+  Features:
+    # Should PremiumVanish hide invisible players in the bungeecord commands /glist, /server and /find?
+    # Note: You can use 'pv.see' as a bungeecord permission to determine which players should be able to see
+    # invisible players in these commands. (This doesn't replace the bukkit permission, it's recommended to use both)
+    ReplaceBungeeCommands: false
+    # Should PremiumVanish adjust the playercount in the serverlist? (-1 per invisible player)
+    AdjustPlayerCount: false
+    # Should PremiumVanish remove the names of vanished players from tab-completions for players without pv.see?
+    FilterTabCompletions: false
+    # A whitelist of command usages where it should be allowed to tab-complete vanished players that you can't see.
+    # You can use this for commands that generally tab-complete any player, online or not.
+    # This section is for advanced users only and uses regular expressions.
+    # For changes to apply you need to change this on all spigot servers and on the bungee.
+    TabCompleteWhitelist:
+      - "/(ps|plotsquared|p2|2|plotme|plot|p)\\s(visit|v|tp|teleport|goto|warp).*"
+    # You can make any command not execute and instead return a custom message if an argument is a vanished
+    # player's name. Useful for faking 'Player not found' messages if there are unsupported plugins.
+    # You can use <vanished> as a placeholder for any vanished player's name and <...> as a placeholder for
+    # anything but whitespace. Any message which STARTS WITH the text you define below (case-insensitive) will
+    # be cancelled and will instead send the sender of the command a message you specify.
+    # This is network-wide and not optimized for Bukkit commands, for non-bungeecord commands go to the
+    # server's PV config; exempt permission: pv.see
+    CustomCommandMessages:
+      '/examplemsg1 <vanished>': "&cPlayer not found"
+      '/makemeadmin2 group <...> useradd <vanished>': "&c<vanished> is totally not online!"
+    # Should pv.use and pv.see be layered? => pv.use.levelX, pv.see.levelX
+    # Players can see a vanished player if their see level is higher or equal to the other player's use level
+    # This setting only applies to PV's bungee features. Layered permissions need to be enabled on the spigot servers.
+    # Note: For performance reasons permissions are currently only recomputed on join; '/pv setlevel' isn't supported
+    LayeredSeeAndUsePermissions: false
+    # What should be the highest level for both layered permissions?
+    # Lower amounts might improve performance with more players since that reduces the amount of permission checks
+    # This setting only applies to PV's bungee features. Layered permissions need to be enabled on the spigot servers.
+    LayeredPermissionsMaxLevel: 100
+  Messages:
+    MustBePlayer: "&cYou must be a player to use this command!"
+    NetworkVanishOn: "&aYou are now joining the network vanished automatically."
+    NetworkVanishOff: "&aYou are no longer joining the network vanished automatically."
