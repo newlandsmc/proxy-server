@@ -29,6 +29,7 @@
 /plugins/OldExpeditions/data/
 /plugins/Geyser-Velocity/cache/images/
 /plugins/Geyser-BungeeCord/cache/images/
+/plugins/VentureChat/PlayerData/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
