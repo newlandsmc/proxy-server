@@ -70,7 +70,7 @@ customPlaceholders:
     !switch
     expression: "${viewer server}"
     replacements:
-      "asthonia": "&d"
+      "survival": "&d"
       "khavalon": "&e"
       "creative": "&a"
     defaultReplacement: "&b"
@@ -78,7 +78,7 @@ customPlaceholders:
     !switch
     expression: "${viewer server}"
     replacements:
-      "asthonia": "&5"
+      "survival": "&5"
       "khavalon": "&6"
       "creative": "&2"
     defaultReplacement: "&3"
@@ -86,7 +86,7 @@ customPlaceholders:
     !switch
     expression: "${viewer server}"
     replacements:
-      "asthonia": "Asthonia"
+      "survival": "Asthonia"
       "khavalon": "Khavalon"
       "creative": "Creative"
     defaultReplacement: "Lobby"
@@ -94,7 +94,7 @@ customPlaceholders:
     !switch
     expression: "${player server}"
     replacements:
-      "asthonia": "&d■&r"
+      "survival": "&d■&r"
       "khavalon": "&6■&r"
       "creative": "&a■&r"
     defaultReplacement: "&b■&r"

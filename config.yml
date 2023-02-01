@@ -3,7 +3,7 @@ listeners:
 - query_port: 25565
   motd: |
     &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
-    &7&l           1.19.2 Survival Network
+    &7&l           1.19.3 Survival Network
   tab_list: SERVER
   query_enabled: false
   proxy_protocol: false
@@ -52,24 +52,24 @@ servers:
   lobby:
     motd: |
       &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
-      &7&l           1.19.2 Survival Network
+      &7&l           1.19.3 Survival Network
     address: localhost:25568
     restricted: false
-  asthonia:
+  survival:
     motd: |
       &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
-      &7&l           1.19.2 Survival Network
+      &7&l           1.19.3 Survival Network
     address: localhost:25567
     restricted: false
   khavalon:
     motd: |
       &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
-      &7&l           1.19.2 Survival Network
+      &7&l           1.19.3 Survival Network
     address: localhost:25566
     restricted: false
   creative:
     motd: |
       &8           &m  ]&f&m-    &r &e&lSemi&6&lVanilla &c&lMC &f&m    -&8&m[  &r
-      &7&l           1.19.2 Survival Network
+      &7&l           1.19.3 Survival Network
     address: localhost:25569
     restricted: false
