@@ -1,7 +1,14 @@
 #!/bin/bash
 
-backupDir='/var/minecraft/backups'
+backupDir='/backups'
 currentDate=$(date +%b-%d-%Y-%H%M%Z)
+
+# CLEANUP
+
+for oldBackup in $(find /var/minecraft/backups -mtime +6)
+do
+  rm -f $oldBackup
+done
 
 # MYSQL
 
@@ -77,10 +84,3 @@ done
 tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/hardline-plugins-$currentDate.tar.gz /var/minecraft/hardline/plugins
 
 rm -f tempignore.txt
-
-# CLEANUP
-
-for oldBackup in $(find /var/minecraft/backups -mtime +1)
-do
-  rm -f $oldBackup
-done

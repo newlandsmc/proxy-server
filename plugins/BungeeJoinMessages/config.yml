@@ -1,7 +1,7 @@
 Servers:
   lobby: Lobby
   khavalon: Khavalon
-  asthonia: Asthonia
+  survival: Survival
   creative: Creative
 Messages:
   SwapServerMessage: '&7 * %player% joined %to%'

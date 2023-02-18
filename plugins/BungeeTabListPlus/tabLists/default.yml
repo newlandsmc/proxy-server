@@ -51,7 +51,7 @@ footer: |-
 
 # Configure whether hidden players appear on the tab list
 # see https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Hidden-Players
-hiddenPlayers: VISIBLE_TO_ADMINS
+hiddenPlayers: VISIBLE
 
 playerSets:
   all_players: all
@@ -70,23 +70,23 @@ customPlaceholders:
     !switch
     expression: "${viewer server}"
     replacements:
-      "survival": "&d"
-      "khavalon": "&e"
-      "creative": "&a"
-    defaultReplacement: "&b"
+      "survival": "&c"
+      "khavalon": "&c"
+      "creative": "&b"
+    defaultReplacement: "&e"
   server_color_2:
     !switch
     expression: "${viewer server}"
     replacements:
-      "survival": "&5"
-      "khavalon": "&6"
-      "creative": "&2"
-    defaultReplacement: "&3"
+      "survival": "&4"
+      "khavalon": "&4"
+      "creative": "&3"
+    defaultReplacement: "&6"
   server_name:
     !switch
     expression: "${viewer server}"
     replacements:
-      "survival": "Asthonia"
+      "survival": "Survival"
       "khavalon": "Khavalon"
       "creative": "Creative"
     defaultReplacement: "Lobby"
@@ -94,7 +94,7 @@ customPlaceholders:
     !switch
     expression: "${player server}"
     replacements:
-      "survival": "&d■&r"
-      "khavalon": "&6■&r"
-      "creative": "&a■&r"
-    defaultReplacement: "&b■&r"
+      "survival": "&c■&r"
+      "khavalon": "&c■&r"
+      "creative": "&b■&r"
+    defaultReplacement: "&8■&r"
