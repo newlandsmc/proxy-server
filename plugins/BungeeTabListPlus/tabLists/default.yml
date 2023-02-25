@@ -13,36 +13,34 @@ priority: 0
 
 showHeaderFooter: true
 header:
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " &fS${server_color}emi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " &fSe${server_color}mi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " &fSem${server_color}i${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}S&femi${server_color_2}Vanilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Se&fmiV${server_color_2}anilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Sem&fiVa${server_color_2}nilla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi&fVan${server_color_2}illa \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}V&fani${server_color_2}lla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Va&fnil${server_color_2}la \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Van&fill${server_color_2}a \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vani&flla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanil&fla \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
-  - " ${server_color}Semi${server_color_2}Vanill&fa \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &fN&aew Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &fNe&aw Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &fNew&a Lands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aN&few &aLands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNe&fw L&aands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew&f La&ands \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew &fLan&ads \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew L&fand&as \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew La&fnds \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Lan&fds \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+  - " &aNew Land&fs \n &7${server_name} \n &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
 headerAnimationUpdateInterval: 0.1
 footer: |-
   &m      &8&m[  &r   &8&m  ]&f&m      &r
@@ -66,22 +64,22 @@ playerComponent: "${player_server_icon} ${player name}"
 # to the tab list.
 # See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Custom=Placeholders
 customPlaceholders:
-  server_color:
-    !switch
-    expression: "${viewer server}"
-    replacements:
-      "survival": "&c"
-      "khavalon": "&c"
-      "creative": "&b"
-    defaultReplacement: "&e"
-  server_color_2:
-    !switch
-    expression: "${viewer server}"
-    replacements:
-      "survival": "&4"
-      "khavalon": "&4"
-      "creative": "&3"
-    defaultReplacement: "&6"
+#  server_color:
+#    !switch
+#    expression: "${viewer server}"
+#    replacements:
+#      "survival": "&c"
+#      "khavalon": "&c"
+#      "creative": "&b"
+#    defaultReplacement: "&a"
+#  server_color_2:
+#    !switch
+#    expression: "${viewer server}"
+#    replacements:
+#      "survival": "&4"
+#      "khavalon": "&4"
+#      "creative": "&3"
+#    defaultReplacement: "&2"
   server_name:
     !switch
     expression: "${viewer server}"
