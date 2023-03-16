@@ -4,9 +4,10 @@ Servers:
   survival: Survival
   creative: Creative
 Messages:
-  SwapServerMessage: '&7 * %player% joined %to%'
-  JoinNetworkMessage: '&a * %player% connected to the network'
-  LeaveNetworkMessage: '&c * %player% disconnected from the network'
+  FirstJoinMessage: '&a * %player% has joined for the first time!'
+  SwapServerMessage: '&a * %player% swapped to %to%!'
+  JoinNetworkMessage: '&a * %player% appeared from thin air!'
+  LeaveNetworkMessage: '&c * %player% vanished in the mist...'
   Commands:
     NoMoreArgumentsNeeded: No more arguments needed.
     NoPermission: '&cYou do not have the permission to use this command.'
@@ -49,12 +50,16 @@ Settings:
   SilentJoinDefaultState: false
   SwapServerMessageEnabled: true
   JoinNetworkMessageEnabled: true
+  FirstJoinNetworkMessageEnabled: true
   LeaveNetworkMessageEnabled: true
   NotifyAdminsOnSilentMove: true
+  Title:
+    sendOnFirstJoin: true
+    sendOnEveryJoin: true
   SwapServerMessageViewableBy:
-    ServerJoined: true
-    ServerLeft: true
-    OtherServer: true
+    ServerJoined: false
+    ServerLeft: false
+    OtherServer: false
   JoinNetworkMessageViewableBy:
     ServerJoined: true
     OtherServer: true

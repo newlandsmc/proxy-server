@@ -44,7 +44,7 @@ header:
 headerAnimationUpdateInterval: 0.1
 footer: |-
   &m      &8&m[  &r   &8&m  ]&f&m      &r
-  &7${viewer bungee_total}/100 Online
+  &7${viewer bungee_total}/50 Online
   &7Ping: ${viewer ping}
 
 # Configure whether hidden players appear on the tab list

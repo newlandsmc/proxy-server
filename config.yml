@@ -3,20 +3,22 @@ listeners:
 - query_port: 25565
   motd: |
     &8            &m  ]&f&m-    &r &a&lNew Lands &2&lMC &f&m    -&8&m[  &r
-    &7&l          1.19.3 Survival Community
+    &7&l          1.19.4 Survival Community
   tab_list: SERVER
-  query_enabled: false
+  query_enabled: true
   proxy_protocol: false
   forced_hosts:
     pvp.md-5.net: pvp
+    play.semivanilla.com: wemoved
+    mc.semivanilla.com: wemoved
   ping_passthrough: false
   priorities:
   - lobby
   bind_local_address: true
-  host: 0.0.0.0:25565
+  host: 69.129.212.211:25565
   max_players: 50
   tab_size: 60
-  force_default_server: true
+  force_default_server: false
 remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
@@ -52,24 +54,23 @@ servers:
   lobby:
     motd: |
       &8            &m  ]&f&m-    &r &a&lNew Lands &2&lMC &f&m    -&8&m[  &r
-      &7&l          1.19.3 Survival Community
+      &7&l          1.19.4 Survival Community
     address: localhost:25568
     restricted: false
   survival:
     motd: |
       &8            &m  ]&f&m-    &r &a&lNew Lands &2&lMC &f&m    -&8&m[  &r
-      &7&l          1.19.3 Survival Community
+      &7&l          1.19.4 Survival Community
     address: localhost:25567
-    restricted: false
-  khavalon:
-    motd: |
-      &8            &m  ]&f&m-    &r &a&lNew Lands &2&lMC &f&m    -&8&m[  &r
-      &7&l          1.19.3 Survival Community
-    address: localhost:25566
     restricted: false
   creative:
     motd: |
       &8            &m  ]&f&m-    &r &a&lNew Lands &2&lMC &f&m    -&8&m[  &r
-      &7&l          1.19.3 Survival Community
+      &7&l          1.19.4 Survival Community
     address: localhost:25569
+    restricted: false
+  wemoved:
+    motd: |
+      &cWe moved! New IP: play.newlandsmc.com
+    address: localhost:25570
     restricted: false
