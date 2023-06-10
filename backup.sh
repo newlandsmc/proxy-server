@@ -5,7 +5,7 @@ currentDate=$(date +%b-%d-%Y-%H%M%Z)
 
 # CLEANUP
 
-for oldBackup in $(find /backups/*.gz -mtime +2)
+for oldBackup in $(find /backups/*.gz -mtime +3)
 do
   rm -f $oldBackup
 done
