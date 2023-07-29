@@ -30,6 +30,9 @@
 /plugins/Geyser-Velocity/cache/images/
 /plugins/Geyser-BungeeCord/cache/images/
 /plugins/VentureChat/PlayerData/
+/plugins/BungeeJoinMessages/data.db.mv.db
+/plugins/BungeeJoinMessages/data.db.trace.db
+/plugins/BungeeJoinMessages/data.db.trace.db.old
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
