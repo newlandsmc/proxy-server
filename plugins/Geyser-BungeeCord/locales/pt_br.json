@@ -6093,7 +6093,7 @@
     "subtitles.ui.stonecutter.take_result": "Cortador de pedras usado",
     "subtitles.weather.rain": "Chuva",
     "symlink_warning.message": "Carregar mundos de pastas com links simbólicos pode ser perigoso se você não souber o que está fazendo. Acesse %s para saber mais.",
-    "symlink_warning.title": "A pasta de mundos contém links simbólicos",
+    "symlink_warning.title": "A pasta do mundo contém links simbólicos",
     "team.collision.always": "Sempre",
     "team.collision.never": "Nunca",
     "team.collision.pushOtherTeams": "Colisão entre membros de outras equipes",
