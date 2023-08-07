@@ -55,12 +55,6 @@ servers:
       &7&l          1.20.1 Survival Community
     address: localhost:25568
     restricted: false
-  survival:
-    motd: |
-      &8              &m  ]&f&m-    &r &a&lNew Lands &f&m    -&8&m[  &r
-      &7&l          1.20.1 Survival Community
-    address: localhost:25567
-    restricted: false
   creative:
     motd: |
       &8              &m  ]&f&m-    &r &a&lNew Lands &f&m    -&8&m[  &r
