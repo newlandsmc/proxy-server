@@ -6,8 +6,8 @@ Servers:
 Messages:
   FirstJoinMessage: '&a * %player% has joined for the first time!'
   SwapServerMessage: '&a * %player% swapped to %to%!'
-  JoinNetworkMessage: '&a * %player% appeared from thin air!'
-  LeaveNetworkMessage: '&c * %player% vanished in the mist...'
+  JoinNetworkMessage: '&a * %player% connected!'
+  LeaveNetworkMessage: '&c * %player% disconnected!'
   Commands:
     NoMoreArgumentsNeeded: No more arguments needed.
     NoPermission: '&cYou do not have the permission to use this command.'
