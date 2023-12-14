@@ -20,14 +20,14 @@ done
 # SURVIVAL
 
 find /var/minecraft/newlands/survival -name "*.jar" > tempignore.txt
-echo "/var/minecraft/newlands/survival/plugins/squaremap/web/tiles/" >> tempignore.txt
+echo "/var/minecraft/newlands/survival1201/plugins/squaremap/web/tiles/" >> tempignore.txt
 
-for world in $(ls /var/minecraft/newlands/survival/worlds/)
+for world in $(ls /var/minecraft/newlands/survival1201/worlds/)
 do
-  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival-$world-$currentDate.tar.gz /var/minecraft/newlands/survival/worlds/$world
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival-$world-$currentDate.tar.gz /var/minecraft/newlands/survival1201/worlds/$world
 done
 
-tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival-plugins-$currentDate.tar.gz /var/minecraft/newlands/survival/plugins
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival-plugins-$currentDate.tar.gz /var/minecraft/newlands/survival1201/plugins
 
 rm -f tempignore.txt
 
@@ -38,17 +38,17 @@ echo "/var/minecraft/newlands/survival1201/plugins/squaremap/web/tiles/" >> temp
 
 for world in $(ls /var/minecraft/newlands/survival1201/worlds/)
 do
-  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival1201-$world-$currentDate.tar.gz /var/minecraft/newlands/survival/worlds/$world
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival1201-$world-$currentDate.tar.gz /var/minecraft/newlands/survival1201/worlds/$world
 done
 
-tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival1201-plugins-$currentDate.tar.gz /var/minecraft/newlands/survival/plugins
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/newlands-survival1201-plugins-$currentDate.tar.gz /var/minecraft/newlands/survival1201/plugins
 
 rm -f tempignore.txt
 
 # CREATIVE
 
 find /var/minecraft/newlands/creative -name "*.jar" > tempignore.txt
-echo "/var/minecraft/newlands/survival/plugins/squaremap/web/tiles/" >> tempignore.txt
+echo "/var/minecraft/newlands/creative/plugins/squaremap/web/tiles/" >> tempignore.txt
 
 for world in $(ls /var/minecraft/newlands/creative/worlds/)
 do
